@@ -6,7 +6,7 @@ import Footer from "../components/Footer"
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Header />
+    <Header title="Enrolados" />
       <main className={styles.main}>
         <div className={styles.article}>
           <Card className={styles.card} title="Curiosidade 1 🎶" content="A Rapunzel já apareceu em várias outras obras da Disney, como “A Casa do Mickey Mouse”, “Once Upon a Time” e também “Ralph Breaks the Internet”." />
@@ -19,7 +19,7 @@ export default function Home() {
           </div>
         </aside>
       </main>
-      <Footer />
+      <Footer text="© 2025 Todos os direitos reservados" />
       </div>
 )
 }
